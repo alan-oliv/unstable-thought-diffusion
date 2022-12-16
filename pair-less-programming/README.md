@@ -10,9 +10,6 @@ You see, I was lucky enough to work with (and make new) friends over the past fe
 
 _There's one, though, that's special: **pair programming**._
 
-<br clear="left"/>
-<br clear="left"/>
-
 That's right, the simple technique where two programmers work together at the same workstation, where one person is coding while the other is reviewing and providing feedback - after a few minutes, the roles switch.
 
 We rarely worked individually. This became natural and very organic; we improved the code quality and shared knowledge and skills among the team - everyone grew together. Everyone understood all projects.
