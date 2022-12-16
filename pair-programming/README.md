@@ -1,12 +1,16 @@
 # Pair(less) programming
 
+<img src="./static/pair-less-programming.png" align="left" width="300px"/>
+
 I've been working remotely since 2016 and wouldn't trade it for anything.
 
 Having more control over my work environment, finding the perfect work-life balance, and having more energy and fewer distractions (which lead to greater productivity) are something that, for me, is beyond discussion. I don't miss working in person.
 
 You see, I was lucky enough to work with (and make new) friends over the past few years; this friendship allowed us to discuss, share ideas, accept mistakes and exceptionally acquire knowledge. But, most of all, having fun doing what I love: coding.
 
-There's one, though, that's special: **pair programming**.
+_There's one, though, that's special: **pair programming**._
+
+<br clear="left"/>
 
 That's right, the simple technique where two programmers work together at the same workstation, where one person is coding while the other is reviewing and providing feedback - after a few minutes, the roles switch.
 
