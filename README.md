@@ -12,4 +12,4 @@ The views and opinions expressed in the following topics are based in my persona
 
 | ![alt text][pairless]
 | --------------- |
-| [Pair(less) programming](https://github.com/alan-oliv/unstable-diffusion/tree/main/pair-programming) |
+| [Pair(less) programming](https://github.com/alan-oliv/unstable-diffusion/tree/main/pair-less-programming) |
