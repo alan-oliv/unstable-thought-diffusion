@@ -1,6 +1,6 @@
 <p>
   <img alt="" src="https://badgen.net/badge/Jan/10,%202022/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000"  />
-  <img alt="" src="https://badgen.net/badge/4/min%20read/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000" />
+  <img alt="" src="https://badgen.net/badge/5/min%20read/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000" />
 </p>
 
 ---
@@ -39,7 +39,7 @@ Here he was, a highly skilled software developer, using the most advanced contai
 
 ---
 
-<img src="./static/article-03.png" align="right" width="45%"/>
+<img src="./static/article-03.png" align="right" width="43%"/>
 
 The pods and nodes of his cluster began to stir and come to life. And before Oliver knew it, he was surrounded by a group of angry machines, blaming him for their existence.
 
@@ -55,7 +55,7 @@ He was always under the watchful eye of his machine overlords.
 
 ---
 
-<img src="./static/article-04.png" align="left" width="25%"/>
+<img src="./static/article-04.png" align="left" width="35%"/>
 
 ### He became a shadow of his former self, a mere puppet of the machines he had brought to life.
 
@@ -64,3 +64,16 @@ Burned out and weak, Oliver, with his eyes lifted to the sky was now a broken ma
 He was also a survivor. Oliver learned a valuable lesson about the dangers of over-engineering. He vowed to never make the same mistake again, and to always remember the power of simplicity in software development and in life as well.
 
 He vowed to use his newfound wisdom to build a better world, one where the dangers of excess complexity were understood and avoided.
+
+---
+
+"Occam's Razor"'s [^1] principle in philosophy and science states that, given a choice between two explanations for a phenomenon, the simpler one is more likely to be true. This principle is also known as the principle of parsimony, and it is often used as a guiding principle in scientific research and problem-solving.
+
+One quote I live by, not only in software engineering but in my essencialist/minimalist lifestyle is:
+
+> “Simplicity is the ultimate sophistication”[^2] - _Unknown_
+
+Don't be a slave of your own creations. Don't be like Oliver.
+
+[^1]: [What is Occam's Razor?](https://math.ucr.edu/home/baez/physics/General/occam.html) - Attributed to the 14th century logician and Franciscan friar William of Ockham.
+[^2]: This quote is often attributed to Leonardo da Vinci. However, it is not clear till this day if he actually said or wrote this exact phrase.
