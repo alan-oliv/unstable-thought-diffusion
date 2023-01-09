@@ -65,8 +65,6 @@ He was also a survivor. Oliver learned a valuable lesson about the dangers of ov
 
 He vowed to use his newfound wisdom to build a better world, one where the dangers of excess complexity were understood and avoided.
 
----
-
 "Occam's Razor"'s [^1] principle in philosophy and science states that, given a choice between two explanations for a phenomenon, the simpler one is more likely to be true. This principle is also known as the principle of parsimony, and it is often used as a guiding principle in scientific research and problem-solving.
 
 One quote I live by, not only in software engineering but in my essencialist/minimalist lifestyle is:
