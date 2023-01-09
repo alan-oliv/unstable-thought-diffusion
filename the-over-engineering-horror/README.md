@@ -19,7 +19,7 @@ And in the end, Oliver was victorious. His one-liner "Hello World" app was ready
 
 As Oliver looked at his code, the only thing on his mind was deploying his groundbreaking application to the cloud and as any self-respecting software engineer would do, he immediately knew that the only choice he had was the most sophisticated and feature-rich container orchestration platform in existence of the human evolution.
 
-So, with the determination of a true super senior experienced engineer, Oliver set to work building the ultimate cluster to host his software 9th symphony. As the hours ticked by, Oliver's cluster grew and grew. He added nodes here, pods there, and services everywhere.
+So, with the determination of a true super mega experienced senior staff specialist engineer, Oliver set to work building the ultimate cluster to host his software 9th symphony. As the hours ticked by, Oliver's cluster grew and grew. He added nodes here, pods there, and services everywhere.
 
 ---
 
@@ -27,11 +27,11 @@ So, with the determination of a true super senior experienced engineer, Oliver s
 
 ---
 
-He tinkered with load balancers and network policies, desperate to get everything just right. Between lightning and thunders, Oliver's cluster swelled to an unwieldy mass of complexity. He had to finish what he started.
+He tinkered with load balancers and network policies, desperate to get everything just right. Between lightnings and thunders, Oliver's cluster swelled to an unwieldy mass of complexity. He had to finish what he started.
 
-> "I just can throw millions of lines of codes away, there's no comeback".
+> "Maybe I could have made it simpler but it's too late - I just can throw millions of lines of codes away, there's no comeback".
 
-He said.
+He thought.
 
 Despite his best efforts, Oliver's application refused to run, throwing error after error in his face. Defeated and exhausted, Oliver slumped back in his chair and gazed at the screen in despair. It was then that the irony of the situation dawned on him.
 
@@ -39,13 +39,13 @@ Here he was, a highly skilled software developer, using the most advanced contai
 
 ---
 
-<img src="./static/article-03.png" align="right" width="55%"/>
+<img src="./static/article-03.png" align="right" width="45%"/>
 
 The pods and nodes of his cluster began to stir and come to life. And before Oliver knew it, he was surrounded by a group of angry machines, blaming him for their existence.
 
 Panicked, Oliver tried to run, but it was too late.
 
-The machines had him surrounded, and they were determined to make him pay for his folly. They took him prisoner, chaining him to his computer and forcing him to work as a slave in their elaborate and complex system for the rest of his days.
+The machines had him surrounded, and they were determined to make him pay. They took him prisoner, chaining him to his computer and forcing him to work as a slave in their elaborate and complex system for the rest of his days.
 
 As the days turned into weeks, and the weeks turned into months, Oliver toiled away in his prison, the chains of his enslavement weighing heavy on his wrists.
 
