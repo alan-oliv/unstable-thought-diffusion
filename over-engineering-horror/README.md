@@ -29,7 +29,7 @@ So, with the determination of a true super mega experienced senior staff special
 
 He tinkered with load balancers and network policies, desperate to get everything just right. Between lightnings and thunders, Oliver's cluster swelled to an unwieldy mass of complexity. He had to finish what he started.
 
-> "Maybe I could have made it simpler but it's too late - I just can throw millions of lines of codes away, there's no comeback".
+> "Maybe I could have made it simpler but it's too late - I just CAN'T throw millions of lines of codes away, there's no comeback".
 
 He thought.
 
