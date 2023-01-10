@@ -1,7 +1,5 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./static/unstable-diffusion-dark.png">
-  <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'" src="./static/unstable-diffusion-light.png"  width="100%">
-</picture>
+![Unstable diffusion](./static/unstable-diffusion-dark.png#gh-dark-mode-only)
+![Unstable diffusion](./static/unstable-diffusion-light.png#gh-light-mode-only)
 
 # unstable-diffusion
 
