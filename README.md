@@ -64,25 +64,30 @@ The views and opinions expressed in the following topics are based in my persona
   </tr>
 </table>
 
-<table>
-  <tr>
-    <th>
+<table width="33%">
+  <tr width="33%">
+    <th width="33%">
       <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/pair-less-programming/README.md">
         <img alt="" src="./pair-less-programming/static/thumbnail.png"></img>
       </a>
     </th>
+    <th></th>
+    <th></th>
+
   </tr>
 
   <tr>
-    <td>
-      <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/pair-less-programming/README.md">
-        <br/>
-        <img alt="" src="https://badgen.net/badge/2/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
-        <br/>
-        Pair(less) programming
-      </a>
+  <td width="33%">
+    <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/pair-less-programming/README.md">
       <br/>
-      <p>December 15, 2022</p>
-    </td>
+      <img alt="" src="https://badgen.net/badge/2/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
+      <br/>
+      Pair(less) programming
+    </a>
+    <br/>
+    <p>December 15, 2022</p>
+  </td>
+  <td> </td>
+  <td></td>
   </tr>
 </table>
