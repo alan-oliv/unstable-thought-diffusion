@@ -71,8 +71,16 @@ The views and opinions expressed in the following topics are based in my persona
         <img alt="" src="./pair-less-programming/static/thumbnail.png"></img>
       </a>
     </th>
-    <th></th>
-    <th></th>
+    <th>
+      <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/over-engineering-horror/README.md">
+        <img alt="" src="./over-engineering-horror/static/thumbnail.png"></img>
+      </a>
+    </th>
+    <th>
+      <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/solid-front-end/README.md">
+        <img alt="" src="https://raw.githubusercontent.com/alan-oliv/unstable-diffusion/main/solid-front-end/static/thumbnail.png"></img>
+      </a>
+    </th>
 
   </tr>
 
