@@ -13,17 +13,17 @@ The views and opinions expressed in the following topics are based in my persona
 
 <table>
   <tr>
-    <th>
+    <th width="33%">
       <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/over-engineering-horror/README.md">
         <img alt="" src="./over-engineering-horror/static/thumbnail.png"></img>
       </a>
     </th>
-    <th>
+    <th width="33%">
       <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/solid-front-end/README.md">
         <img alt="" src="https://raw.githubusercontent.com/alan-oliv/unstable-diffusion/main/solid-front-end/static/thumbnail.png"></img>
       </a>
     </th>
-    <th>
+    <th width="33%">
       <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/musician-programmer/README.md">
         <img alt="" src="https://raw.githubusercontent.com/alan-oliv/unstable-diffusion/main/musician-programmer/static/thumbnail.png"></img>
       </a>
@@ -31,7 +31,7 @@ The views and opinions expressed in the following topics are based in my persona
   </tr>
 
   <tr>
-    <td>
+    <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/over-engineering-horror/README.md">
         <br/>
         <img alt="" src="https://badgen.net/badge/5/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
@@ -41,7 +41,7 @@ The views and opinions expressed in the following topics are based in my persona
       <br/>
       <p>January 10, 2023</p>
     </td>
-    <td>
+    <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/solid-front-end/README.md">
         <br/>
         <img alt="" src="https://badgen.net/badge/5/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
@@ -51,7 +51,7 @@ The views and opinions expressed in the following topics are based in my persona
       <br/>
       <p>December 22, 2022</p>
     </td>
-    <td>
+    <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/musician-programmer/README.md">
         <br/>
         <img alt="" src="https://badgen.net/badge/4/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
@@ -64,38 +64,33 @@ The views and opinions expressed in the following topics are based in my persona
   </tr>
 </table>
 
-<table width="33%">
-  <tr width="33%">
+<table>
+  <tr>
     <th width="33%">
       <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/pair-less-programming/README.md">
         <img alt="" src="./pair-less-programming/static/thumbnail.png"></img>
       </a>
     </th>
-    <th>
-      <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/over-engineering-horror/README.md">
-        <img alt="" src="./over-engineering-horror/static/thumbnail.png"></img>
-      </a>
+    <th width="33%">
+        <img alt="" src="./static/thumbnail.png"></img>
     </th>
-    <th>
-      <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/solid-front-end/README.md">
-        <img alt="" src="https://raw.githubusercontent.com/alan-oliv/unstable-diffusion/main/solid-front-end/static/thumbnail.png"></img>
-      </a>
+    <th width="33%">
+        <img alt="" src="./static/thumbnail.png"></img>
     </th>
-
   </tr>
 
   <tr>
-  <td width="33%">
-    <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/pair-less-programming/README.md">
+    <td width="33%">
+      <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/pair-less-programming/README.md">
+        <br/>
+        <img alt="" src="https://badgen.net/badge/2/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
+        <br/>
+        Pair(less) programming
+      </a>
       <br/>
-      <img alt="" src="https://badgen.net/badge/2/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
-      <br/>
-      Pair(less) programming
-    </a>
-    <br/>
-    <p>December 15, 2022</p>
-  </td>
-  <td> </td>
-  <td></td>
+      <p>December 15, 2022</p>
+    </td>
+    <td width="33%"> </td>
+    <td width="33%"></td>
   </tr>
 </table>
