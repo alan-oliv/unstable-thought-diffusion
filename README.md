@@ -1,7 +1,7 @@
 ![Unstable diffusion](./static/unstable-diffusion-dark.png#gh-dark-mode-only)
 ![Unstable diffusion](./static/unstable-diffusion-light.png#gh-light-mode-only)
 
-# unstable-diffusion
+# unstable-thought-diffusion
 
 This is not a deep learning model, unless you can learn something from my thoughts.
 
