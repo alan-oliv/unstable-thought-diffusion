@@ -1,5 +1,5 @@
-![Unstable diffusion](./static/unstable-diffusion-dark.png#gh-dark-mode-only)
-![Unstable diffusion](./static/unstable-diffusion-light.png#gh-light-mode-only)
+![Unstable diffusion](./static/unstable-thought-diffusion-dark.png#gh-dark-mode-only)
+![Unstable diffusion](./static/unstable-thought-diffusion-light.png#gh-light-mode-only)
 
 # unstable-thought-diffusion
 
@@ -14,25 +14,25 @@ The views and opinions expressed in the following topics are based in my persona
 <table>
   <tr>
     <th width="33%">
-      <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/over-engineering-horror/README.md">
+      <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/over-engineering-horror/README.md">
         <img alt="" src="./over-engineering-horror/static/thumbnail.png"></img>
       </a>
     </th>
     <th width="33%">
-      <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/solid-front-end/README.md">
-        <img alt="" src="https://raw.githubusercontent.com/alan-oliv/unstable-diffusion/main/solid-front-end/static/thumbnail.png"></img>
+      <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/solid-front-end/README.md">
+        <img alt="" src="https://raw.githubusercontent.com/alan-oliv/unstable-thought-diffusion/main/solid-front-end/static/thumbnail.png"></img>
       </a>
     </th>
     <th width="33%">
-      <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/musician-programmer/README.md">
-        <img alt="" src="https://raw.githubusercontent.com/alan-oliv/unstable-diffusion/main/musician-programmer/static/thumbnail.png"></img>
+      <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/musician-programmer/README.md">
+        <img alt="" src="https://raw.githubusercontent.com/alan-oliv/unstable-thought-diffusion/main/musician-programmer/static/thumbnail.png"></img>
       </a>
     </th>
   </tr>
 
   <tr>
     <td width="33%">
-      <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/over-engineering-horror/README.md">
+      <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/over-engineering-horror/README.md">
         <br/>
         <img alt="" src="https://badgen.net/badge/5/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
         <br/>
@@ -42,7 +42,7 @@ The views and opinions expressed in the following topics are based in my persona
       <p>January 10, 2023</p>
     </td>
     <td width="33%">
-      <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/solid-front-end/README.md">
+      <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/solid-front-end/README.md">
         <br/>
         <img alt="" src="https://badgen.net/badge/5/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
         <br/>
@@ -52,7 +52,7 @@ The views and opinions expressed in the following topics are based in my persona
       <p>December 22, 2022</p>
     </td>
     <td width="33%">
-      <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/musician-programmer/README.md">
+      <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/musician-programmer/README.md">
         <br/>
         <img alt="" src="https://badgen.net/badge/4/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
         <br/>
@@ -67,7 +67,7 @@ The views and opinions expressed in the following topics are based in my persona
 <table>
   <tr>
     <th width="33%">
-      <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/pair-less-programming/README.md">
+      <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/pair-less-programming/README.md">
         <img alt="" src="./pair-less-programming/static/thumbnail.png"></img>
       </a>
     </th>
@@ -81,7 +81,7 @@ The views and opinions expressed in the following topics are based in my persona
 
   <tr>
     <td width="33%">
-      <a href="https://github.com/alan-oliv/unstable-diffusion/blob/main/pair-less-programming/README.md">
+      <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/pair-less-programming/README.md">
         <br/>
         <img alt="" src="https://badgen.net/badge/2/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
         <br/>
