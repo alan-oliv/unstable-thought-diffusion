@@ -3,7 +3,7 @@
   <img alt="" src="https://badgen.net/badge/8/min%20read/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000" />
 </p>
 
-The different ways developers act and communicate (called archetypes) are sometimes different and only apply to some. Some people have a mix of archetypes, which can and probably will change over time. It's essential to know each archetype's good and bad parts and use that to improve.
+The different ways developers act and communicate (called archetypes) are sometimes different and only apply to some. Some people have a mix of archetypes, which can and probably and will change over time. It's essential to know each archetype's good and bad parts and use that to improve.
 
 > _This is my opinion / interpretation of historical facts, and the reader is encouraged to conduct their research and form their own opinion on the subject matter discussed._
 
@@ -11,21 +11,19 @@ The different ways developers act and communicate (called archetypes) are someti
 
 # A developer's eudaimonia
 
-<img src="./static/article-01.png" align="left" width="50%"/>
+<img src="./static/article-01.png" align="left" width="35%"/>
 
 The Aristotelian thought is that eudaimonia is achieving the balance between two extremes. Aristotle referred to this balance by the name of _Virtue_.
 
 > To live a virtuous life, one must strive for the middle ground, avoiding both excess and deficiency.
 
-Eudaimonia also relates to the concept of self-knowledge and oneself's place
-
-On the verge of reaching it, we could be blinded by the process, mistakenly arriving in "not so desired" places.
+Eudaimonia also relates to the concept of self-knowledge and oneself's place and on the verge of finding it, we could, blinded by the process, mistakenly arriving in "not so desired" places.
 
 Those places in software development became so common that they are today known as developer archetypes. Even though there are several of them, I want to put only two in the spotlight of this thought, the two most important to discuss.
 
-Since we quoted Aristotle, a greek philosopher, we could stretch a little and talk about Narcissus: A mythological man who, led by his fixation on himself, eventually fell in love with his reflection in a pool of water. The term "narcissism" is derived from him, and in the worst cases, it could reach Narcissistic personality disorder (or NPD, an actual clinical condition that we won't approach here).
+Since we quoted the greek philosopher Aristotle, we could stretch a little and talk about Narcissus: A mythological man who, led by his fixation on himself, eventually felt in love with his reflection in a pool of water. The term "narcissism" is derived from him, and in the worst cases, it could reach Narcissistic personality disorder (or NPD, an actual clinical condition that we won't approach here).
 
-That being said, we have our first archetype - The Narcissistic developer, a.k.a:
+That being said, we have our first archetype, which is The Narcissistic developer or also known as:
 
 ## The "rockstar"
 
@@ -38,7 +36,7 @@ However, when confidence is taken to an extreme, it can lead to a dangerous stat
 
 This archetype is often characterized by a strong sense of self-importance and a desire for recognition and success, and for that, they may hold knowledge exclusively for themselves.
 
-They often are less interested in collaborating and tend to be highly competitive instead, viewing themselves as the ultimate authority on a subject showing a lack of wisdom. They do not recognize their limitations and instead exalt themselves with overconfidence.
+They often are less interested in collaborating and tend to be highly competitive instead, viewing themselves as the ultimate authority on a subject showing lack of wisdom. They do not recognize their limitations and instead exalt themselves with overconfidence.
 
 <h2>The "impostor"</h2>
 
@@ -68,10 +66,8 @@ The thoughts of this greek leader faded away in time and like the sand in an hou
 
 358 years after Aristotle and approximately 1.200 miles from Greece, in Nazareth, a new way of thinking was emerging. As Christianity spread throughout the Roman Empire and beyond, it gradually replaced the Greek way of thinking and began to change the way people thought about morality, ethics, and the nature of the universe.
 
-It began to interact and influence the Greek philosophy and culture all over again, but this time it was not about superiority. Regardless of your religious belief, the teachings of Jesus of Nazareth was about love, hope, compassion, humility and forgiveness.
-
-Emphasizing the value and equality of all individuals regardless of their social status. Encouraging people to look beyond their own self-interests and focusing on serving others.
+It began to interact and influence the Greek philosophy and culture all over again, but this time it was not about superiority. Regardless of your religious belief, the teachings of Jesus of Nazareth was about love, hope, compassion, humility and forgiveness. Always emphasizing the value and equality of all individuals regardless of their social statusa and encouraging people to look beyond their own self-interests and focusing on serving others.
 
 ---
 
-In a world where we are used to hearing that our status or so-called "success" is about our earnings or wealth, I found my eudaimonia as a developer (and as a human), trying to make the other live better than he would if I didn't exist.
+In a world where we are used to hearing that our status or so-called "success" is about our earnings or wealth, I found my eudaimonia as a developer (and as a human) based on empathy and easement, trying to make the other live better than he would, if I didn't exist.
