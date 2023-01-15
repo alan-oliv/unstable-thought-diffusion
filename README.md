@@ -39,7 +39,7 @@ The views and opinions expressed in the following topics are based in my persona
         A dev's "Eudaimonia"
       </a>
       <br/>
-      <p>January 14 2023</p>
+      <p>January 15, 2023</p>
     </td>
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/over-engineering-horror/README.md">
