@@ -37,7 +37,7 @@ The views and opinions expressed in the following topics are based in my persona
         A dev's "Eudaimonia"
       </a>
       <br/>
-      <p>January 15, 2023</p>
+      <p>Aug 15, 2024</p>
     </td>
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/over-engineering-horror/README.md">
@@ -47,7 +47,7 @@ The views and opinions expressed in the following topics are based in my persona
         Over-engineering horror
       </a>
       <br/>
-      <p>January 10, 2023</p>
+      <p>May 10, 2024</p>
     </td>
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/solid-front-end/README.md">
@@ -57,7 +57,7 @@ The views and opinions expressed in the following topics are based in my persona
         A solid front-end
       </a>
       <br/>
-      <p>December 22, 2022</p>
+      <p>Mar 22, 2024</p>
     </td>
   </tr>
 </table>
@@ -88,7 +88,7 @@ The views and opinions expressed in the following topics are based in my persona
         Musician programmer
       </a>
       <br/>
-      <p>December 20, 2022</p>
+      <p>Jan 20, 2024</p>
     </td>
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/pair-less-programming/README.md">
@@ -98,7 +98,7 @@ The views and opinions expressed in the following topics are based in my persona
         Pair(less) programming
       </a>
       <br/>
-      <p>December 15, 2022</p>
+      <p>December 15, 2023</p>
     </td>
     <td width="33%"></td>
   </tr>
