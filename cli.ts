@@ -262,17 +262,31 @@ program
 program
   .command('add')
   .description('Create a new post from a template')
-  .requiredOption(
+  .argument('[template]', 'Template type: essay | concept | story | short')
+  .argument('[title]', 'Post title (slug is derived from it)')
+  .option(
     '-t, --template <type>',
-    'Template type: essay | concept | story | short',
+    'Template type (same as first argument)',
     (value: string) => {
       if (TEMPLATE_TYPES.includes(value as TemplateType)) return value as TemplateType;
       throw new Error(`Template must be one of: ${TEMPLATE_TYPES.join(', ')}`);
     }
   )
-  .requiredOption('-n, --title <title>', 'Post title (slug is derived from it)')
-  .action((options: { template: TemplateType; title: string }) => {
-    runAdd(options.template, options.title);
+  .option('-n, --title <title>', 'Post title (same as second argument)')
+  .action((templateArg: string | undefined, titleArg: string | undefined, options: { template?: TemplateType; title?: string }) => {
+    const template = (options.template ?? templateArg) as TemplateType | undefined;
+    const title = options.title ?? titleArg;
+    if (!template || !TEMPLATE_TYPES.includes(template)) {
+      program.error(
+        'Template is required.\n  npm: npm run post:add -- essay "Your post title"\n  Or:  npx tsx cli.ts add -t essay -n "Your post title"'
+      );
+    }
+    if (!title?.trim()) {
+      program.error(
+        'Title is required.\n  npm: npm run post:add -- essay "Your post title"\n  Or:  npx tsx cli.ts add -t essay -n "Your post title"'
+      );
+    }
+    runAdd(template, title.trim());
   });
 
 program.parse();
