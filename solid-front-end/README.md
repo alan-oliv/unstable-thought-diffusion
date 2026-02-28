@@ -3,8 +3,6 @@
   <img alt="" src="https://badgen.net/badge/5/min%20read/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000" />
 </p>
 
----
-
 # A solid front-end
 
 <img src="./static/article-01.png" align="right" width="55%"/>
@@ -108,4 +106,5 @@ Barbara Liskov introduced LSP 12 years before uncle bob said anything about SOLI
 The principles existed before they existed. (????)
 
 [^1]: "Les circuits de consécration sociale, sera d'autant plus efficace plus la distance sociale de l'objet consacrée" - Pierre Bourdieu
+
 [^2]: [Principles of OOD](http://www.butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) - Robert Martin (a.k.a Uncle Bob)

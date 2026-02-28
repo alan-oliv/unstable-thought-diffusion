@@ -3,8 +3,6 @@
   <img alt="" src="https://badgen.net/badge/4/min%20read/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000" />
 </p>
 
----
-
 # Musician programmer
 
 <img src="./static/article-01.png" align="right" width="50%"/>

@@ -114,3 +114,16 @@ The views and opinions expressed in the following topics are based in my persona
     </td>
   </tr>
 </table>
+
+---
+
+### Adding a new post
+
+From the repo root, run:
+
+```bash
+npm install
+npx tsx cli.ts add --template <essay|concept|story|short>
+```
+
+Or use the short form: `npx tsx cli.ts add -t essay`. The CLI creates a new post from the chosen template with auto-generated placeholder data and updates `POSTS.md` and this README. Replace the title, date, and body content in the new post manually. Add `thumbnail.png` (and optionally `article-01.png`, `article-02.png`, etc.) to the post's `static/` folder so the post appears correctly in the index above.
