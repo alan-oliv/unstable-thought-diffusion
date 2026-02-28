@@ -3,8 +3,6 @@
   <img alt="" src="https://badgen.net/badge/2/min%20read/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000" />
 </p>
 
----
-
 # Pair(less) programming
 
 I've been working remotely since 2016 and wouldn't trade it for anything.

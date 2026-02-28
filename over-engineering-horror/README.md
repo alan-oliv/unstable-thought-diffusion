@@ -3,8 +3,6 @@
   <img alt="" src="https://badgen.net/badge/5/min%20read/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000" />
 </p>
 
----
-
 # The over-engineering horror
 
 <img src="./static/article-01.png" align="right" width="30%"/>
@@ -74,4 +72,5 @@ One quote I live by, not only in software engineering but in my essencialist/min
 Don't be a slave of your own creations. Don't be like Oliver.
 
 [^1]: [What is Occam's Razor?](https://math.ucr.edu/home/baez/physics/General/occam.html) - Attributed to the 14th century logician and Franciscan friar William of Ockham.
+
 [^2]: This quote is often attributed to Leonardo da Vinci. However, it is not clear till this day if he actually said or wrote this exact phrase.

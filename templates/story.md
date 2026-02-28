@@ -3,8 +3,6 @@
   <img alt="" src="https://badgen.net/badge/{{READ_TIME_BADGE}}/min%20read/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000" />
 </p>
 
----
-
 # {{TITLE}}
 
 <img src="./static/article-01.png" align="right" width="30%"/>
@@ -58,4 +56,5 @@ One quote he lived by from that day forward:
 Don't be a slave of your own creations. Don't be like Marcus.
 
 [^1]: This quote is often attributed to Leonardo da Vinci. However, it is not clear to this day if he actually said or wrote this exact phrase.
+
 [^2]: [Lorem Ipsum](https://example.com) – a placeholder reference for the narrative.

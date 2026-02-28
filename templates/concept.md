@@ -3,8 +3,6 @@
   <img alt="" src="https://badgen.net/badge/{{READ_TIME_BADGE}}/min%20read/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000" />
 </p>
 
----
-
 # {{TITLE}}
 
 <img src="./static/article-01.png" align="right" width="45%"/>
@@ -64,4 +62,5 @@ Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Good developers, as they gain experience, tend to naturally gravitate around these principles. The principles existed before they were named.
 
 [^1]: Lorem ipsum footnote one – reference or attribution.
+
 [^2]: [Lorem Ipsum Principles](https://example.com) – placeholder link for the acronym source.

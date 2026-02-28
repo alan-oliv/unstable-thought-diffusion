@@ -3,8 +3,6 @@
   <img alt="" src="https://badgen.net/badge/{{READ_TIME_BADGE}}/min%20read/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000" />
 </p>
 
----
-
 # {{TITLE}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
