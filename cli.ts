@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * CLI for adding new blog posts from templates.
- * Usage: npx tsx cli.ts add --template <essay|concept|story|short>
+ * Usage: npx tsx cli.ts add --template <type> --title "Post title"
  */
 
 import { Command } from 'commander';
@@ -14,12 +14,6 @@ Mustache.escape = (text: string) => text;
 
 const TEMPLATE_TYPES = ['essay', 'concept', 'story', 'short'] as const;
 type TemplateType = (typeof TEMPLATE_TYPES)[number];
-
-const LOREM_WORDS = [
-  'Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing', 'elit',
-  'sed', 'do', 'eiusmod', 'tempor', 'incididunt', 'ut', 'labore', 'et', 'dolore',
-  'magna', 'aliqua', 'enim', 'minim', 'veniam', 'quis', 'nostrud', 'exercitation',
-];
 
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
@@ -34,19 +28,6 @@ interface GeneratedPost {
 
 function randomInt(min: number, max: number): number {
   return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
-function pick<T>(arr: T[]): T {
-  return arr[Math.floor(Math.random() * arr.length)];
-}
-
-function generateRandomTitle(): string {
-  const numWords = randomInt(2, 4);
-  const words: string[] = [];
-  for (let i = 0; i < numWords; i++) {
-    words.push(pick(LOREM_WORDS));
-  }
-  return words.join(' ');
 }
 
 function slugify(title: string): string {
@@ -98,14 +79,13 @@ function formatDateDisplay(d: Date): string {
   return `${month} ${day}, ${year}`;
 }
 
-function generatePostData(root: string): GeneratedPost {
-  const title = generateRandomTitle();
+function generatePostData(root: string, title: string): GeneratedPost {
   const baseSlug = slugify(title) || `post-${Date.now()}`;
   const slug = ensureUniqueSlug(baseSlug, root);
   const d = new Date();
   const dateIso = d.toISOString().slice(0, 10);
   return {
-    title,
+    title: title.trim(),
     slug,
     dateIso,
     dateBadge: formatDateBadge(d),
@@ -130,11 +110,29 @@ function renderTemplate(template: string, data: GeneratedPost): string {
   return Mustache.render(template, toMustacheView(data));
 }
 
+function dummyImage(width: number, height: number, text: string): string {
+  const encoded = encodeURIComponent(text);
+  return `https://dummyimage.com/${width}x${height}/ddd/999&text=${encoded}`;
+}
+
+function replacePlaceholderImages(content: string): string {
+  let out = content;
+  for (let n = 1; n <= 4; n++) {
+    out = out.replace(
+      new RegExp(`\\./static/article-0${n}\\.png`, 'g'),
+      dummyImage(800, 400, String(n))
+    );
+  }
+  out = out.replace(/\.\/static\/thumbnail\.png/g, dummyImage(400, 400, '+'));
+  return out;
+}
+
 function createPost(root: string, templateType: TemplateType, data: GeneratedPost): void {
   const templatesDir = join(root, 'templates');
   const templatePath = join(templatesDir, `${templateType}.md`);
   const template = readFileSync(templatePath, 'utf-8');
-  const content = renderTemplate(template, data);
+  let content = renderTemplate(template, data);
+  content = replacePlaceholderImages(content);
 
   const postDir = join(root, data.slug);
   const staticDir = join(postDir, 'static');
@@ -165,18 +163,20 @@ function prependPostBlock(root: string, data: GeneratedPost): void {
   writeFileSync(postsPath, content, 'utf-8');
 }
 
-function buildNewTableHtml(data: GeneratedPost, repoName: string): string {
+function buildNewPostCells(data: GeneratedPost, repoName: string): { th: string; td: string } {
   const badgeUrl =
     'https://badgen.net/badge/' + data.readTime + '/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000';
   const baseUrl = 'https://github.com/' + repoName + '/blob/main';
-  const thumbnailSrc = './' + data.slug + '/static/thumbnail.png';
+  const thumbnailSrc = dummyImage(400, 400, '+');
   const linkHref = baseUrl + '/' + data.slug + '/README.md';
-  return (
-    '\n<table>\n  <tr>\n    <th width="33%">\n      <a href="' +
+  const th =
+    '<th width="33%">\n      <a href="' +
     linkHref +
     '">\n        <img alt="" src="' +
     thumbnailSrc +
-    '"></img>\n      </a>\n    </th>\n  </tr>\n  <tr>\n    <td width="33%">\n      <a href="' +
+    '"></img>\n      </a>\n    </th>';
+  const td =
+    '<td width="33%">\n      <a href="' +
     linkHref +
     '">\n        <br/>\n        <img alt="" src="' +
     badgeUrl +
@@ -184,22 +184,64 @@ function buildNewTableHtml(data: GeneratedPost, repoName: string): string {
     data.title +
     '\n      </a>\n      <br/>\n      <p>' +
     data.dateDisplay +
-    '</p>\n    </td>\n  </tr>\n</table>\n'
-  );
+    '</p>\n    </td>';
+  return { th, td };
+}
+
+function chunk<T>(arr: T[], size: number): T[][] {
+  const out: T[][] = [];
+  for (let i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));
+  return out;
 }
 
 function insertReadmeTable(root: string, data: GeneratedPost, repoName: string): void {
   const readmePath = join(root, 'README.md');
   let content = readFileSync(readmePath, 'utf-8');
-  const newTable = buildNewTableHtml(data, repoName);
-  content = content.trimEnd() + newTable;
+
+  const tableStart = content.indexOf('<table>');
+  const tableEnd = content.lastIndexOf('</table>');
+  if (tableStart === -1 || tableEnd === -1 || tableEnd < tableStart) {
+    const { th, td } = buildNewPostCells(data, repoName);
+    content = content.trimEnd() + '\n\n<table>\n  <tr>\n    ' + th + '\n  </tr>\n  <tr>\n    ' + td + '\n  </tr>\n</table>\n';
+    writeFileSync(readmePath, content, 'utf-8');
+    return;
+  }
+
+  const tableSection = content.slice(tableStart, tableEnd + '</table>'.length);
+  const thRegex = /<th width="33%">[\s\S]*?<\/th>/g;
+  const tdRegex = /<td width="33%">[\s\S]*?<\/td>/g;
+  const existingTh = tableSection.match(thRegex) ?? [];
+  const existingTd = tableSection.match(tdRegex) ?? [];
+
+  const { th: newTh, td: newTd } = buildNewPostCells(data, repoName);
+  const allTh = [newTh, ...existingTh];
+  const allTd = [newTd, ...existingTd];
+
+  const thRows = chunk(allTh, 3);
+  const tdRows = chunk(allTd, 3);
+  const rowCount = Math.max(thRows.length, tdRows.length);
+  const newTableParts: string[] = ['<table>'];
+  for (let i = 0; i < rowCount; i++) {
+    const thCells = thRows[i] ?? [];
+    const tdCells = tdRows[i] ?? [];
+    if (thCells.length > 0) {
+      newTableParts.push('  <tr>\n    ' + thCells.join('\n    ') + '\n  </tr>');
+    }
+    if (tdCells.length > 0) {
+      newTableParts.push('  <tr>\n    ' + tdCells.join('\n    ') + '\n  </tr>');
+    }
+  }
+  newTableParts.push('</table>');
+  const newTableSection = newTableParts.join('\n\n');
+
+  content = content.slice(0, tableStart) + newTableSection + content.slice(tableEnd + '</table>'.length);
   writeFileSync(readmePath, content, 'utf-8');
 }
 
 
-function runAdd(templateType: TemplateType): void {
+function runAdd(templateType: TemplateType, title: string): void {
   const root = process.cwd();
-  const data = generatePostData(root);
+  const data = generatePostData(root, title);
   createPost(root, templateType, data);
   prependPostBlock(root, data);
   insertReadmeTable(root, data, 'alan-oliv/unstable-thought-diffusion');
@@ -219,7 +261,7 @@ program
 
 program
   .command('add')
-  .description('Create a new post from a template with auto-generated placeholder data')
+  .description('Create a new post from a template')
   .requiredOption(
     '-t, --template <type>',
     'Template type: essay | concept | story | short',
@@ -228,8 +270,9 @@ program
       throw new Error(`Template must be one of: ${TEMPLATE_TYPES.join(', ')}`);
     }
   )
-  .action((options: { template: TemplateType }) => {
-    runAdd(options.template);
+  .requiredOption('-n, --title <title>', 'Post title (slug is derived from it)')
+  .action((options: { template: TemplateType; title: string }) => {
+    runAdd(options.template, options.title);
   });
 
 program.parse();
