@@ -63,7 +63,7 @@ A model can suggest an implementation, but it doesn’t carry the consequences o
 
 ## Responsibility is deterministic
 
-<img src="./static/article-03.png" align="left" width="18%"></img>
+<img src="./static/article-03.png" align="left" width="22%"></img>
 
 Engineers are trusted with problems before they feel fully ready for them. They step into systems they did not design. They make decisions without having perfect information. Over time, certainty grows around that responsibility.
 AI has not changed it. If anything, it has made the edge of the craft easier to see.
