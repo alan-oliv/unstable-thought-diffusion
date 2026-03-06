@@ -14,7 +14,7 @@ The views and opinions expressed in the following topics are based in my persona
   <tr>
     <th width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/imposter-syndrome-as-a-feature/README.md">
-        <img alt="" src="https://dummyimage.com/400x400/ddd/999&text=%2B"></img>
+        <img alt="" src="./imposter-syndrome-as-a-feature/static/thumbnail.png"></img>
       </a>
     </th>
     <th width="33%">
