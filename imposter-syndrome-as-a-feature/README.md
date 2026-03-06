@@ -73,11 +73,11 @@ When generating code becomes trivial, the parts of the job that actually matter 
 You have to take out pieces that doesn't make sense anymore. Keep it stable.
 
 > The feeling many engineers try to eliminate may actually be serving a useful purpose.
->
-> It keeps you careful.
 
-> It keeps you curious.
+It keeps you careful.
 
-> It keeps you honest about what you do and do not yet understand.
+It keeps you curious.
+
+It keeps you honest about what you do and do not yet understand.
 
 It's not a bug, it's feature.
