@@ -1,5 +1,12 @@
 # Blog Posts
 
+## Imposter syndrome as a feature
+
+- id: imposter-syndrome-as-a-feature
+- date: 2026-02-28
+- link: /posts/imposter-syndrome-as-a-feature
+- readTime: 7
+
 ## Refactor becomes therapy
 
 - id: when-refactor-becomes-therapy
