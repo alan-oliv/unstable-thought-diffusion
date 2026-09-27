@@ -9,8 +9,8 @@ The views and opinions expressed in the following topics are based in my persona
 
 ---
 
+<!-- posts:start -->
 <table>
-
   <tr>
     <th width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/imposter-syndrome-as-a-feature/README.md">
@@ -28,12 +28,11 @@ The views and opinions expressed in the following topics are based in my persona
       </a>
     </th>
   </tr>
-
   <tr>
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/imposter-syndrome-as-a-feature/README.md">
         <br/>
-        <img alt="" src="https://badgen.net/badge/7/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
+        <img alt="" src="https://badgen.net/badge/3/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
         <br/>
         Imposter syndrome as a feature
       </a>
@@ -43,7 +42,7 @@ The views and opinions expressed in the following topics are based in my persona
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/when-refactor-becomes-therapy/README.md">
         <br/>
-        <img alt="" src="https://badgen.net/badge/5/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
+        <img alt="" src="https://badgen.net/badge/3/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
         <br/>
         When refactoring becomes therapy
       </a>
@@ -53,7 +52,7 @@ The views and opinions expressed in the following topics are based in my persona
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/a-devs-eudaimonia/README.md">
         <br/>
-        <img alt="" src="https://badgen.net/badge/8/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
+        <img alt="" src="https://badgen.net/badge/4/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
         <br/>
         A dev's "Eudaimonia"
       </a>
@@ -70,21 +69,20 @@ The views and opinions expressed in the following topics are based in my persona
     </th>
     <th width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/solid-front-end/README.md">
-        <img alt="" src="https://raw.githubusercontent.com/alan-oliv/unstable-thought-diffusion/main/solid-front-end/static/thumbnail.png"></img>
+        <img alt="" src="./solid-front-end/static/thumbnail.png"></img>
       </a>
     </th>
     <th width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/musician-programmer/README.md">
-        <img alt="" src="https://raw.githubusercontent.com/alan-oliv/unstable-thought-diffusion/main/musician-programmer/static/thumbnail.png"></img>
+        <img alt="" src="./musician-programmer/static/thumbnail.png"></img>
       </a>
     </th>
   </tr>
-
   <tr>
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/over-engineering-horror/README.md">
         <br/>
-        <img alt="" src="https://badgen.net/badge/5/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
+        <img alt="" src="https://badgen.net/badge/4/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
         <br/>
         Over-engineering horror
       </a>
@@ -94,7 +92,7 @@ The views and opinions expressed in the following topics are based in my persona
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/solid-front-end/README.md">
         <br/>
-        <img alt="" src="https://badgen.net/badge/5/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
+        <img alt="" src="https://badgen.net/badge/6/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
         <br/>
         A solid front-end
       </a>
@@ -104,7 +102,7 @@ The views and opinions expressed in the following topics are based in my persona
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/musician-programmer/README.md">
         <br/>
-        <img alt="" src="https://badgen.net/badge/4/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
+        <img alt="" src="https://badgen.net/badge/5/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
         <br/>
         Musician programmer
       </a>
@@ -120,7 +118,6 @@ The views and opinions expressed in the following topics are based in my persona
       </a>
     </th>
   </tr>
-
   <tr>
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/pair-less-programming/README.md">
@@ -130,8 +127,8 @@ The views and opinions expressed in the following topics are based in my persona
         Pair(less) programming
       </a>
       <br/>
-      <p>December 15, 2023</p>
+      <p>Dec 15, 2023</p>
     </td>
   </tr>
-
 </table>
+<!-- posts:end -->

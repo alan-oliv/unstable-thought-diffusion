@@ -1,0 +1,44 @@
+name: Build post index
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # GITHUB_TOKEN can't push to another repo; PROFILE_TOKEN is a fine-grained
+      # PAT with Contents: read/write on alan-oliv/alan-oliv.
+      - uses: actions/checkout@v4
+        with:
+          repository: alan-oliv/alan-oliv
+          token: ${{ secrets.PROFILE_TOKEN }}
+          path: profile
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: node build.mjs profile/README.md
+
+      - name: Commit blog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- . ':!profile'
+          git diff --cached --quiet || { git commit -m "chore: rebuild post index" && git push; }
+
+      - name: Commit profile
+        working-directory: profile
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || { git commit -m "chore: update latest thoughts" && git push; }
