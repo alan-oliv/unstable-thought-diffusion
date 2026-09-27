@@ -1,5 +1,5 @@
 <p>
-  <img alt="" src="https://badgen.net/badge/Dec/15,%202022/white?scale=1.1&labelColor=white&color=white&cache=360000"  />
+  <img alt="" src="https://badgen.net/badge/Dec/15,%202023/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000"  />
   <img alt="" src="https://badgen.net/badge/2/min%20read/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000" />
 </p>
 

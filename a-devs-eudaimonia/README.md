@@ -1,6 +1,6 @@
 <p>
-  <img alt="" src="https://badgen.net/badge/Jan/15,%202023/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000"  />
-  <img alt="" src="https://badgen.net/badge/8/min%20read/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000" />
+  <img alt="" src="https://badgen.net/badge/Aug/15,%202024/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000"  />
+  <img alt="" src="https://badgen.net/badge/4/min%20read/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000" />
 </p>
 
 The different ways developers act and communicate (called archetypes) are sometimes different and only apply to some. Some people have a mix of archetypes, which can and probably and will change over time. It's essential to know each archetype's good and bad parts and use that to improve.

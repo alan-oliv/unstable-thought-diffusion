@@ -1,6 +1,6 @@
 <p>
   <img alt="" src="https://badgen.net/badge/May/2,%202025/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000"  />
-  <img alt="" src="https://badgen.net/badge/5/min%20read/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000" />
+  <img alt="" src="https://badgen.net/badge/3/min%20read/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000" />
 </p>
 
 # When refactoring becomes therapy

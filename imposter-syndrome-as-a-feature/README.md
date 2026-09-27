@@ -1,6 +1,6 @@
 <p>
   <img alt="" src="https://badgen.net/badge/Feb/28,%202026/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000"  />
-  <img alt="" src="https://badgen.net/badge/7/min%20read/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000" />
+  <img alt="" src="https://badgen.net/badge/3/min%20read/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000" />
 </p>
 
 # Imposter syndrome as a feature
