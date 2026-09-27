@@ -112,6 +112,12 @@ for (const post of posts) {
   writeFileSync(file, content.replace(/^<p>[\s\S]*?<\/p>/, postHeader(post)));
 }
 
+// The blog site reads link and readTime straight from POSTS.md.
+const postsMd = readFileSync('POSTS.md', 'utf-8');
+const postEntry = (p) =>
+  `## ${p.title}\n\n- id: ${p.id}\n- date: ${p.date}\n- link: /posts/${p.id}\n- readTime: ${p.readTime}\n`;
+writeFileSync('POSTS.md', postsMd.slice(0, postsMd.search(/^## /m)) + posts.map(postEntry).join('\n'));
+
 writeFileSync('README.md', replaceBetweenMarkers(readFileSync('README.md', 'utf-8'), blogTable(posts), 'README.md'));
 
 const profilePath = process.argv[2];
