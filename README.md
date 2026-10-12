@@ -13,6 +13,11 @@ The views and opinions expressed in the following topics are based in my persona
 <table>
   <tr>
     <th width="33%">
+      <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/the-signature/README.md">
+        <img alt="" src="./the-signature/static/thumbnail.png"></img>
+      </a>
+    </th>
+    <th width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/imposter-syndrome-as-a-feature/README.md">
         <img alt="" src="./imposter-syndrome-as-a-feature/static/thumbnail.png"></img>
       </a>
@@ -22,13 +27,18 @@ The views and opinions expressed in the following topics are based in my persona
         <img alt="" src="./when-refactor-becomes-therapy/static/thumbnail.png"></img>
       </a>
     </th>
-    <th width="33%">
-      <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/a-devs-eudaimonia/README.md">
-        <img alt="" src="./a-devs-eudaimonia/static/thumbnail.png"></img>
-      </a>
-    </th>
   </tr>
   <tr>
+    <td width="33%">
+      <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/the-signature/README.md">
+        <br/>
+        <img alt="" src="https://badgen.net/badge/6/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
+        <br/>
+        The signature
+      </a>
+      <br/>
+      <p>Oct 11, 2026</p>
+    </td>
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/imposter-syndrome-as-a-feature/README.md">
         <br/>
@@ -49,19 +59,14 @@ The views and opinions expressed in the following topics are based in my persona
       <br/>
       <p>May 2, 2025</p>
     </td>
-    <td width="33%">
-      <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/a-devs-eudaimonia/README.md">
-        <br/>
-        <img alt="" src="https://badgen.net/badge/4/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
-        <br/>
-        A dev's "Eudaimonia"
-      </a>
-      <br/>
-      <p>Aug 15, 2024</p>
-    </td>
   </tr>
 
   <tr>
+    <th width="33%">
+      <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/a-devs-eudaimonia/README.md">
+        <img alt="" src="./a-devs-eudaimonia/static/thumbnail.png"></img>
+      </a>
+    </th>
     <th width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/over-engineering-horror/README.md">
         <img alt="" src="./over-engineering-horror/static/thumbnail.png"></img>
@@ -72,13 +77,18 @@ The views and opinions expressed in the following topics are based in my persona
         <img alt="" src="./solid-front-end/static/thumbnail.png"></img>
       </a>
     </th>
-    <th width="33%">
-      <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/musician-programmer/README.md">
-        <img alt="" src="./musician-programmer/static/thumbnail.png"></img>
-      </a>
-    </th>
   </tr>
   <tr>
+    <td width="33%">
+      <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/a-devs-eudaimonia/README.md">
+        <br/>
+        <img alt="" src="https://badgen.net/badge/4/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
+        <br/>
+        A dev's "Eudaimonia"
+      </a>
+      <br/>
+      <p>Aug 15, 2024</p>
+    </td>
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/over-engineering-horror/README.md">
         <br/>
@@ -99,6 +109,21 @@ The views and opinions expressed in the following topics are based in my persona
       <br/>
       <p>Mar 22, 2024</p>
     </td>
+  </tr>
+
+  <tr>
+    <th width="33%">
+      <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/musician-programmer/README.md">
+        <img alt="" src="./musician-programmer/static/thumbnail.png"></img>
+      </a>
+    </th>
+    <th width="33%">
+      <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/pair-less-programming/README.md">
+        <img alt="" src="./pair-less-programming/static/thumbnail.png"></img>
+      </a>
+    </th>
+  </tr>
+  <tr>
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/musician-programmer/README.md">
         <br/>
@@ -109,16 +134,6 @@ The views and opinions expressed in the following topics are based in my persona
       <br/>
       <p>Jan 20, 2024</p>
     </td>
-  </tr>
-
-  <tr>
-    <th width="33%">
-      <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/pair-less-programming/README.md">
-        <img alt="" src="./pair-less-programming/static/thumbnail.png"></img>
-      </a>
-    </th>
-  </tr>
-  <tr>
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/pair-less-programming/README.md">
         <br/>
