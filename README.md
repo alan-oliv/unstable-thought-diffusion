@@ -32,7 +32,7 @@ The views and opinions expressed in the following topics are based in my persona
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/the-signature/README.md">
         <br/>
-        <img alt="" src="https://badgen.net/badge/6/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
+        <img alt="" src="https://badgen.net/badge/6/min%20read/555?scale=1&labelColor=555&color=555&cache=360000" />
         <br/>
         The signature
       </a>
@@ -42,7 +42,7 @@ The views and opinions expressed in the following topics are based in my persona
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/imposter-syndrome-as-a-feature/README.md">
         <br/>
-        <img alt="" src="https://badgen.net/badge/3/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
+        <img alt="" src="https://badgen.net/badge/3/min%20read/555?scale=1&labelColor=555&color=555&cache=360000" />
         <br/>
         Imposter syndrome as a feature
       </a>
@@ -52,7 +52,7 @@ The views and opinions expressed in the following topics are based in my persona
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/when-refactor-becomes-therapy/README.md">
         <br/>
-        <img alt="" src="https://badgen.net/badge/3/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
+        <img alt="" src="https://badgen.net/badge/3/min%20read/555?scale=1&labelColor=555&color=555&cache=360000" />
         <br/>
         When refactoring becomes therapy
       </a>
@@ -82,7 +82,7 @@ The views and opinions expressed in the following topics are based in my persona
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/a-devs-eudaimonia/README.md">
         <br/>
-        <img alt="" src="https://badgen.net/badge/4/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
+        <img alt="" src="https://badgen.net/badge/4/min%20read/555?scale=1&labelColor=555&color=555&cache=360000" />
         <br/>
         A dev's "Eudaimonia"
       </a>
@@ -92,7 +92,7 @@ The views and opinions expressed in the following topics are based in my persona
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/over-engineering-horror/README.md">
         <br/>
-        <img alt="" src="https://badgen.net/badge/4/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
+        <img alt="" src="https://badgen.net/badge/4/min%20read/555?scale=1&labelColor=555&color=555&cache=360000" />
         <br/>
         Over-engineering horror
       </a>
@@ -102,7 +102,7 @@ The views and opinions expressed in the following topics are based in my persona
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/solid-front-end/README.md">
         <br/>
-        <img alt="" src="https://badgen.net/badge/6/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
+        <img alt="" src="https://badgen.net/badge/6/min%20read/555?scale=1&labelColor=555&color=555&cache=360000" />
         <br/>
         A solid front-end
       </a>
@@ -127,7 +127,7 @@ The views and opinions expressed in the following topics are based in my persona
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/musician-programmer/README.md">
         <br/>
-        <img alt="" src="https://badgen.net/badge/5/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
+        <img alt="" src="https://badgen.net/badge/5/min%20read/555?scale=1&labelColor=555&color=555&cache=360000" />
         <br/>
         Musician programmer
       </a>
@@ -137,7 +137,7 @@ The views and opinions expressed in the following topics are based in my persona
     <td width="33%">
       <a href="https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/pair-less-programming/README.md">
         <br/>
-        <img alt="" src="https://badgen.net/badge/2/min%20read/darkgray?scale=1&labelColor=darkgray&color=darkgray&cache=360000" />
+        <img alt="" src="https://badgen.net/badge/2/min%20read/555?scale=1&labelColor=555&color=555&cache=360000" />
         <br/>
         Pair(less) programming
       </a>
