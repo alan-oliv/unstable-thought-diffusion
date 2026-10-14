@@ -17,7 +17,7 @@ I kept staring at it anyway.
 
 ## My father's corner
 
-<img src="./static/article-02.png" align="right" width="30%"></img>
+<img src="./static/article-02.png" align="left" width="39%"></img>
 
 My father was a painter. I wrote about him before[^1], about how much of what I know about work I learned watching him in front of a canvas. There is one thing I left out.
 
@@ -28,6 +28,8 @@ And he signed last. After the final stroke, when there was nothing left he would
 For a long time I thought the signature was about the hand. His name there meant: every centimeter of this was painted by me.
 
 I think I had it backwards.
+
+<br><br><br><br>
 
 ## Fifteen cartoonists
 
@@ -47,7 +49,7 @@ That's what I had backwards about my father. The signature was a promise. It sai
 
 ## The eagle
 
-<img src="./static/article-03.png" align="left" width="30%"></img>
+<img src="./static/article-03.png" align="right" width="37%"></img>
 
 It was a Friday, obviously.
 
@@ -67,7 +69,7 @@ Theo is made up. Rubens isn't. In 1618 he sold a Prometheus to an English ambass
 
 So, back to the file with my name on every line.
 
-Git already knows the eagle exists. `Signed-off-by` certifies that a contribution was made "in whole or in part" by you[^4], and the agents now add `Co-Authored-By: Claude` on their own. I strip that line out. My own `CLAUDE.md` says to, I wrote the rule. Writing this, I'm less sure. Rubens would have left it in and knocked a hundred florins off.
+Git already knows the eagle exists. `Signed-off-by` certifies that a contribution was made "in whole or in part" by you[^4], and the agents now add `Co-Authored-By: Claude` on their own.
 
 What bothered me, looking at that file, was a different question.
 
@@ -100,11 +102,13 @@ Blame doesn't know who was in the room.
 
 I do.
 
+---
+
 [^1]: [Musician programmer](https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/musician-programmer/README.md), where my father first shows up on this blog.
 
 [^2]: Andrew Deck, [ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons](https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/), Nieman Lab, October 5, 2026. The Loper and Byrnes quotes are from there.
 
-[^3]: Rubens to Sir Dudley Carleton, April 28, 1618. The eagle line is quoted in [Prometheus Bound (Rubens)](https://en.wikipedia.org/wiki/Prometheus_Bound_(Rubens)); the full priced list is in [this Rubens monograph](https://arthistory.columbia.edu/sites/default/files/content/faculty/pdfs/freedberg/Rubens-book.pdf) hosted by Columbia's art history department (12 MB PDF).
+[^3]: Rubens to Sir Dudley Carleton, April 28, 1618. The eagle line is quoted in [Prometheus Bound (Rubens)](<https://en.wikipedia.org/wiki/Prometheus_Bound_(Rubens)>); the full priced list is in [this Rubens monograph](https://arthistory.columbia.edu/sites/default/files/content/faculty/pdfs/freedberg/Rubens-book.pdf) hosted by Columbia's art history department (12 MB PDF).
 
 [^4]: [Developer Certificate of Origin](https://developercertificate.org/), the text your `Signed-off-by` line certifies. It was written for the Linux kernel in 2004.
 
