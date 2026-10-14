@@ -83,7 +83,7 @@ There is no paragraph for the bricks.
 You can't put a model on trial. The worst thing that can happen to it is being switched off. When the house falls, the investigation finds the name in the corner. That's what the name was for.
 
 There is a tension here:
-
+<br>
 > Between the hand and the name.
 
 > Between how fast I can approve and how much I could paint again.
