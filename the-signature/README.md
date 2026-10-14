@@ -29,7 +29,7 @@ For a long time I thought the signature was about the hand. His name there meant
 
 I think I had it backwards.
 
-<br><br><br><br>
+<br clear="all">
 
 ## Fifteen cartoonists
 
@@ -64,6 +64,8 @@ He started at the top. By line 91 he was reading code to twelve people the way y
 Nobody asked who wrote it. The commit trailer said `Co-Authored-By: Claude`, so everybody knew, and it changed nothing. Incident reviews find the human who clicked approve, because that is the only name that can be in the room. Theo wrote the postmortem himself. Action item one: the parts of a diff that can charge a card get read, every line, by a person. Action item two: the person's name goes on it after the reading. Only after.
 
 Theo is made up. Rubens isn't. In 1618 he sold a Prometheus to an English ambassador with a note on the price list, "Original by my hand, the eagle done by Snyders"[^3], a hundred florins cheaper than the Daniel he had painted alone. He signed both. Nobody called him a forger, because the name came with the list, and with a man who would answer if the eagle was bad.
+
+<br clear="all">
 
 ### Signed-off-by: me
 
