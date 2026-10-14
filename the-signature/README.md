@@ -10,14 +10,11 @@ The promise inside the name.
 <img src="./static/article-01.png" width="100%"></img>
 
 Last week I ran `git blame` on a file I was about to change. Every line had my name on it. Same color, same font. I had read maybe half of those lines when they were written. The other half an agent wrote on a Tuesday afternoon while I was in a meeting, and I approved them before dinner.
-
-Blame doesn't know the difference.
-
 I kept staring at it anyway.
 
 ## My father's corner
 
-<img src="./static/article-02.png" align="left" width="39%"></img>
+<img src="./static/article-02.png" align="left" width="25%"></img>
 
 My father was a painter. I wrote about him before[^1], about how much of what I know about work I learned watching him in front of a canvas. There is one thing I left out.
 
@@ -29,7 +26,7 @@ For a long time I thought the signature was about the hand. His name there meant
 
 I think I had it backwards.
 
-<br clear="all">
+---
 
 ## Fifteen cartoonists
 
@@ -37,19 +34,15 @@ This month Nieman Lab documented more than fifteen New Yorker cartoonists whose 
 
 > "I'm not a territorial person, but my name is my name. It felt very much like a violation of my personhood."
 
-Pat Byrnes has signed "P.Byrnes." with a period at the end since he was a teenager. Every fake the reporter found with his name on it ended with a period.
+Pat Byrnes has signed "P.Byrnes." with a period at the end since he was a teenager. Every fake the reporter found with his name on it ended with a period. The model learned the period.
 
-The model learned the period.
-
-To the model, the signature is more ink. It belongs to the style, like the sparse background and the one-line caption, and it learned it the same way it learned to draw a dog.
-
-To Byrnes it was the one part that was never style. "It was like signing a letter," he said. "Here's my statement, my gift to you to accept or reject."
+To the model, the signature is more ink. It belongs to the style, like the sparse background and the one-line caption, and it learned it the same way it learned to draw a dog. To Byrnes it was the one part that was never style. "It was like signing a letter," he said. "Here's my statement, my gift to you to accept or reject."
 
 That's what I had backwards about my father. The signature was a promise. It said: this one, I answer for. The hand was how he kept it.
 
 ## The eagle
 
-<img src="./static/article-03.png" align="right" width="37%"></img>
+<img src="./static/article-03.png" align="right" width="34%"></img>
 
 It was a Friday, obviously.
 
@@ -65,9 +58,9 @@ Nobody asked who wrote it. The commit trailer said `Co-Authored-By: Claude`, so 
 
 Theo is made up. Rubens isn't. In 1618 he sold a Prometheus to an English ambassador with a note on the price list, "Original by my hand, the eagle done by Snyders"[^3], a hundred florins cheaper than the Daniel he had painted alone. He signed both. Nobody called him a forger, because the name came with the list, and with a man who would answer if the eagle was bad.
 
-<br clear="all">
+---
 
-### Signed-off-by: me
+## Signed-off-by: me
 
 So, back to the file with my name on every line.
 
@@ -79,7 +72,11 @@ What bothered me, looking at that file, was a different question.
 
 Addy Osmani wrote last month that reading every line was only ever one way to make sure a person understood what they were shipping and was in a position to say no[^5]. He thinks the line-by-line read is going away for most code, and that this is fine. The understanding, and the no, can't go with it.
 
-There is an old law about this, older than any of the painters. Hammurabi, paragraph 229: if a builder builds a house and the house collapses and kills the owner, the builder is put to death[^6]. There is no paragraph for the bricks.
+There is an old law about this, older than any of the painters. Hammurabi, paragraph 229[^6]:
+
+> If a builder builds a house and the house collapses and kills the owner, the builder is put to death.
+
+There is no paragraph for the bricks.
 
 You can't put a model on trial. The worst thing that can happen to it is being switched off. When the house falls, the investigation finds the name in the corner. That's what the name was for.
 
@@ -90,19 +87,11 @@ There is a tension here:
 - Between the father who signed nothing he didn't paint and the master who signed the eagle.
 - Between the period the model learned at the end of "P.Byrnes." and the one thing it can't learn: being the one who answers.
 
-### Sign last
+## Sign last
 
-My father signed when there was nothing left he would change. I used to think that was about perfection.
-
-Now I think it was about timing. You sign when you're ready to answer.
+My father signed when there was nothing left he would change. I used to think that was about perfection. Now I think it was about timing. You sign when you're ready to answer for that.
 
 I still let the agent paint the eagle. I read the parts that decide whether the house stands. And I sign last, only what I could do again, slower, with people watching.
-
----
-
-Blame doesn't know who was in the room.
-
-I do.
 
 ---
 
