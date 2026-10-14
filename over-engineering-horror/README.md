@@ -1,6 +1,6 @@
 <p>
-  <img alt="" src="https://badgen.net/badge/May/10,%202024/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000"  />
-  <img alt="" src="https://badgen.net/badge/4/min%20read/darkgray?scale=1.1&labelColor=darkgray&color=darkgray&cache=360000" />
+  <img alt="" src="https://badgen.net/badge/May/10,%202024/555?scale=1.1&labelColor=555&color=555&cache=360000"  />
+  <img alt="" src="https://badgen.net/badge/4/min%20read/555?scale=1.1&labelColor=555&color=555&cache=360000" />
 </p>
 
 # The over-engineering horror

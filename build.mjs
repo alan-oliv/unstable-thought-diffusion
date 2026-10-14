@@ -13,7 +13,7 @@ const START = '<!-- posts:start -->';
 const END = '<!-- posts:end -->';
 
 const badge = (path, scale) =>
-  `https://badgen.net/badge/${path}/darkgray?scale=${scale}&labelColor=darkgray&color=darkgray&cache=360000`;
+  `https://badgen.net/badge/${path}/555?scale=${scale}&labelColor=555&color=555&cache=360000`;
 
 function parsePosts(md) {
   return md
