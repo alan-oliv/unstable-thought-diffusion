@@ -1,5 +1,12 @@
 # Blog Posts
 
+## The signature
+
+- id: the-signature
+- date: 2026-10-11
+- link: /posts/the-signature
+- readTime: 6
+
 ## Imposter syndrome as a feature
 
 - id: imposter-syndrome-as-a-feature
