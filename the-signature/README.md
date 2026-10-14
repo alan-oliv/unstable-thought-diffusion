@@ -1,6 +1,6 @@
 <p>
   <img alt="" src="https://badgen.net/badge/Oct/11,%202026/555?scale=1.1&labelColor=555&color=555&cache=360000"  />
-  <img alt="" src="https://badgen.net/badge/6/min%20read/555?scale=1.1&labelColor=555&color=555&cache=360000" />
+  <img alt="" src="https://badgen.net/badge/7/min%20read/555?scale=1.1&labelColor=555&color=555&cache=360000" />
 </p>
 
 # The signature
@@ -62,6 +62,8 @@ Theo is made up. Rubens isn't. In 1618 he sold a Prometheus to an English ambass
 
 ## Signed-off-by: me
 
+<img src="./static/article-04.png" align="left" width="42%"></img>
+
 So, back to the file with my name on every line.
 
 Git already knows the eagle exists. `Signed-off-by` certifies that a contribution was made "in whole or in part" by you[^4], and the agents now add `Co-Authored-By: Claude` on their own.
@@ -82,14 +84,23 @@ You can't put a model on trial. The worst thing that can happen to it is being s
 
 There is a tension here:
 
-- Between the hand and the name.
-- Between how fast I can approve and how much I could paint again.
-- Between the father who signed nothing he didn't paint and the master who signed the eagle.
-- Between the period the model learned at the end of "P.Byrnes." and the one thing it can't learn: being the one who answers.
+> Between the hand and the name.
+
+> Between how fast I can approve and how much I could paint again.
+
+> Between the father who signed nothing he didn't paint and the master who signed the eagle.
+
+> Between the period the model learned at the end of "P.Byrnes." and the one thing it can't learn: being the one who answers.
+
+---
 
 ## Sign last
 
 My father signed when there was nothing left he would change. I used to think that was about perfection. Now I think it was about timing. You sign when you're ready to answer for that.
+
+And you don't get ready in an afternoon. My father could put his name in that corner because of every canvas before it, the ones that taught him which colors crack and which corner fades in ten years. Rubens could sign the eagle because he could have painted the eagle. Nobody asked either of them what brush they used. The brush was cheap. The name certified the years behind the hand holding it.
+
+It's the same with us. The agent is the brush. What makes a name worth anything on a PR is the years of reading code before you were allowed to skim it, and the incidents you were in the room for.
 
 I still let the agent paint the eagle. I read the parts that decide whether the house stands. And I sign last, only what I could do again, slower, with people watching.
 

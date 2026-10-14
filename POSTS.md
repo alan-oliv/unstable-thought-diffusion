@@ -5,7 +5,7 @@
 - id: the-signature
 - date: 2026-10-11
 - link: /posts/the-signature
-- readTime: 6
+- readTime: 7
 
 ## Imposter syndrome as a feature
 
