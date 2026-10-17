@@ -104,8 +104,6 @@ It's the same with us. The agent is the brush. What makes a name worth anything 
 
 I still let the agent paint the eagle. I read the parts that decide whether the house stands. And I sign last, only what I could do again, slower, with people watching.
 
----
-
 [^1]: [Musician programmer](https://github.com/alan-oliv/unstable-thought-diffusion/blob/main/musician-programmer/README.md), where my father first shows up on this blog.
 
 [^2]: Andrew Deck, [ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons](https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/), Nieman Lab, October 5, 2026. The Loper and Byrnes quotes are from there.
